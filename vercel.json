@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/api/form/(.*)",
-      "dest": "/api/form/index.js"
+      "dest": "/api/form/server.js"
     }
   ]
 }
