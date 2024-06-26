@@ -24,6 +24,4 @@ mongoose
 
 app.use("/api/form", formRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server is running at PORT ${PORT}`);
-});
+module.exports = app;
